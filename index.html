@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Nkulu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/richnk.png">
+    <script src="https://kit.fontawesome.com/ec63b86663.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo2.png" class="logo" alt="">
+            <ul>
+                <li> <img src="images/notification.png" alt="Notification image"></li>
+                <li> <img src="images/inbox.png" alt="Inbox image"></li>
+                <li> <img src="images/video.png" alt="Video image"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/IMG_E8138.JPG" alt="" >
+            </div>
+        </div>
+        <!-- settings menu -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/IMG_E8138.JPG" alt="">
+                    <div>
+                        <p>Richard Channing Nkulu</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help me to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon" alt="">
+                    <a href="#">settings & Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon" alt="">
+                    <a href="#">Help & support <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon" alt="">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon" alt="">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+            </div>  
+        </div>
+    </nav>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <div class="important-links">
+                <a href="#"><img src="images/news.png" alt="" > Latest News</a>
+                <a href="#"><img src="images/friends.png" alt=""> Friends</a>
+                <a href="#"><img src="images/group.png" alt=""> Group</a>
+                <a href="#"><img src="images/marketplace.png" alt=""> Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt=""> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt=""> Web Develpers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt=""> Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt=""> Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt=""> Website Expert</a>
+            </div>
+        </div>
+
+
+        <!-- Main Content Starting Point -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/pexels-anna-shvets-3746214.jpg" alt="">
+                    <p>Toka Hapa</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/pexels-avonne-stalling-3916019.jpg" alt="">
+                    <p>Kaloko Sana</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/pexels-joshua-mcknight-1139242.jpg" alt="">
+                    <p>Muntu Ule</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/pexels-cottonbro-7166820.jpg" alt="">
+                    <p>Moko Yangu</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/IMG_E8138.JPG" alt="">
+                    <div>
+                        <p>Richard Channing Nkulu</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Hey Richard, What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling /Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/IMG_E8138.JPG" alt="">
+                        <div>
+                            <p>Richard Channing Nkulu</p>
+                            <span>September 24, 2021 4:25 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Thanks for contacting me in order to get my services or partnership. I want to work for/with whoever is ready to get offer considerable salary, mutual respect and more.<a href="#">#Richard</a> <a href="#">#Nkulu</a></p>
+                <img src="images/pexels-pavel-danilyuk-8761310.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">485</div>
+                        <div><img src="images/comments.png" alt="">45</div>
+                        <div><img src="images/share.png" alt="">28</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_2.jpeg" alt="">
+                        <div>
+                            <p>Zesmo Kitumba</p>
+                            <span>October 02, 2021 6:17 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">We are preparing the fashion show of a world famous brand that is no longer to present to this day.
+                    The directors of the partner companies will send us the models around November 7th of this year.</p>
+                <img src="images/pexels-alexander-suhorucov-6457482.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">42.7K</div>
+                        <div><img src="images/comments.png" alt="">653</div>
+                        <div><img src="images/share.png" alt="">386</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_4.jpeg" alt="">
+                        <div>
+                            <p>Nazali Katanga</p>
+                            <span>October 03, 2021 1:02 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Transportation in New York City is very complicated almost every Monday morning. Today is my first day working for Real Muntu For Africa LLC. 
+                    I am very happy to have been selected among more than 5000 applicants for this position.</a></p>
+                <img src="images/pexels-ketut-subiyanto-4559612.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">438</div>
+                        <div><img src="images/comments.png" alt="">79</div>
+                        <div><img src="images/share.png" alt="">14</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_3.jpeg" alt="">
+                        <div>
+                            <p>Mimi Muzuri</p>
+                            <span>October 04, 2021 11:28 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Hey, Richard. Hope you're doing well. Please know that I'm sorry again for leaving you on the road this morning. 
+                    You're a sick bastard because despite that, you sent me a gift that will serve me in my work every day for at least five years.<b>#Favorite #Friend #Ever</b> 💕😘✌🏽🤪🥳🥳🥳</p>
+                <img src="images/pexels-kindel-media-8487370.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">893</div>
+                        <div><img src="images/comments.png" alt="">32</div>
+                        <div><img src="images/share.png" alt="">7</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_5.jpg" alt="">
+                        <div>Paul Pierce</p>
+                            <span>October 04, 2021 3:17 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    Remote work (also known as work from home [WFH] or telecommuting) is a type of flexible working arrangement that allows an employee to work from remote location outside of corporate offices. ... 
+                    Remote work arrangements can be temporary or permanent, part-time or full-time, occasional or frequent.</p>
+                <img src="images/pexels-jep-gambardella-7690154.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">19.3K</div>
+                        <div><img src="images/comments.png" alt="">287</div>
+                        <div><img src="images/share.png" alt="">28</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_6.jpeg" alt="">
+                        <div>
+                            <p>Kuna Kende</p>
+                            <span>October 04, 2021 8:07 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Water + Soccer + Sunny = Best Quality of Life Ever</p>
+                <img src="images/pexels-rodnae-productions-7187834.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">84</div>
+                        <div><img src="images/comments.png" alt="">17</div>
+                        <div><img src="images/share.png" alt="">2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_7.jpeg" alt="">
+                        <div>
+                            <p>Yuri Kolwezona</p>
+                            <span>October 05, 2021 10:03 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Newest Hairstyle</p>
+                <img src="images/pexels-john-diez-7388982.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">207</div>
+                        <div><img src="images/comments.png" alt="">4</div>
+                        <div><img src="images/share.png" alt="">3</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_8.jpeg" alt="">
+                        <div>
+                            <p>Beni Degoma</p>
+                            <span>October 06, 2021 5:18 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    Interviews with internally promoted CEOs reveal that they face five significant challenges: operating in the shadow of their past; 
+                    making decisions that disappoint supporters; overseeing former peers; pacing change; and managing the outgoing CEO.</p>
+                <img src="images/pexels-ono-kosuki-5648423.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">7.2K</div>
+                        <div><img src="images/comments.png" alt="">125</div>
+                        <div><img src="images/share.png" alt="">47</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/pp_9.jpeg" alt="">
+                        <div>
+                            <p>Sina Kazinguvu</p>
+                            <span>September 24, 2021 4:25 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">
+                    In most states, teachers must have a bachelor's degree as well as a teaching certificate in order to teach music. 
+                    Many people who become a music teacher complete a BA in music and then go on to complete a master's degree in education as well as a teaching certificate examination.
+                    Music teachers educate and train students in the skills required to succeed as musicians. They explain and demonstrate pitch, tempo, rhythm, and other concepts that are fundamental to singing and playing music. 
+                    There are several types of music teachers.</p>
+                <img src="images/pexels-tima-miroshnichenko-6860501.jpg" class="post-img" alt="" >
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">986</div>
+                        <div><img src="images/comments.png" alt="">452</div>
+                        <div><img src="images/share.png" alt="">9</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/IMG_E8138.JPG" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+        <!-- End Of Main Content haha -->
+
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>The Channing elEvent</h4>
+                    <p><i class="fas fa-map-pin"></i> 881 Laurent Desire Lumumba Avenue</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-pin"></i> The Hypnose Building L'shi, H.K</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/pexels-picha-stock-3894375.jpg" class="sidebar-ads" alt="">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">  
+                    <img src="images/pexels-jamiesx-co-7520156.jpg" alt="">
+                </div>
+                <p>Alina Kamalondo</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/pexels-ketut-subiyanto-4719813.jpg" alt="">
+                </div>
+                <p>Lylie Nimutoto</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/pexels-andrea-piacquadio-3769021.jpg" alt="">
+                </div>
+                <p>Wamu Belair</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright September 2021 - Richard Nkulu</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
