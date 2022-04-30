@@ -584,10 +584,13 @@ resize: none;
     border: 0;
     outline: 0;
     padding: 6px 10px;
-    
     border-radius: 3px;
     margin-left: 10px;
     cursor: pointer;
+    
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
 }
 
 .pd-right button img{
