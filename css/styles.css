@@ -105,13 +105,7 @@ right: 0;
     padding: 13px 5%;
 
 }
-.left-sidebar{
-    flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    
-}
+
 .right-sidebar{
     flex-basis: 25%;
     position: sticky;
@@ -142,6 +136,13 @@ right: 0;
     color: #1876f2;
 }
 
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
 .important-links {
     border-bottom: 1px solid #ccc;
 }
