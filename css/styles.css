@@ -105,7 +105,13 @@ right: 0;
     padding: 13px 5%;
 
 }
-
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
 .right-sidebar{
     flex-basis: 25%;
     position: sticky;
@@ -136,13 +142,6 @@ right: 0;
     color: #1876f2;
 }
 
-.left-sidebar{
-    flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    
-}
 .important-links {
     border-bottom: 1px solid #ccc;
 }
@@ -584,13 +583,12 @@ resize: none;
     border: 0;
     outline: 0;
     padding: 6px 10px;
-    border-radius: 3px;
-    margin-left: 10px;
-    cursor: pointer;
-    
     display: inline-flex;
     align-items: center;
     color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 .pd-right button img{
@@ -613,6 +611,7 @@ resize: none;
     padding: 12px;
     display: inline-flex;
     margin-top: 30px;
+    
 }
 
 .pd-right a img{
