@@ -584,9 +584,7 @@ resize: none;
     border: 0;
     outline: 0;
     padding: 6px 10px;
-    display: inline-flex;
-    align-items: center;
-    color: #fff;
+    
     border-radius: 3px;
     margin-left: 10px;
     cursor: pointer;
