@@ -113,6 +113,10 @@ right: 0;
     align-self: flex-start;
     
 }
+
+.important-links a:last-child{
+    color: #1876f2;
+}
 .right-sidebar{
     flex-basis: 25%;
     position: sticky;
@@ -137,10 +141,6 @@ right: 0;
 .important-links a img{
     width:25px;
     margin-right: 15px;
-}
-
-.important-links a:last-child{
-    color: #1876f2;
 }
 
 .important-links {
